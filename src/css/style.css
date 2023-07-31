@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    height: 100vh;
+    background-image: url(../images/bg-repeat.jpg);
+    background-repeat: round;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ 
+.conteudo-titulo {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+}
+
+.conteudo-titulo .titulo-duvida {
+    font-weight: 900;
+    margin-bottom: 11px;
+    font-size: 40px;
+}
+
+.conteudo-titulo .paragrafo-duvida {
+    font-size: 20px;
+}
+
+.formulario {
+    width: 500px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 30px ;
+}
+
+.input-item {
+    width: 100%;
+    height: 50.11px;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid;
+}
+
+.textarea-item {
+    width: 100%;
+    height: 150px;
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 5px;
+    resize: none;
+    padding: 10px;
+    border-color: black;
+}
+
+.campos-obrigatorios-paragrafo {
+    font-size: 15px;
+}
+
+.submit-enviar {
+    background-color: #3CCC87;
+    color: #fff;
+    width: 100%;
+    height: 50.13px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.campo-preenchido {
+    border-color: #00C22B;
+}
+
+.campo-nao-preenchido {
+    border-color: #F52E2E;
+}
+
+.campo-obrigatorio {
+    visibility: hidden;
+    font-size: 10px;
+    color: #F52E2E;
+}
+
+.campo-obrigatorio-ativo {
+    visibility: visible;
+}
