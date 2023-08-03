@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Formulário com Validação
 
 Um site simples com um pequeno formulário e um botão de enviar, que quando pressionado valida se os campos estão preenchidos ou não ✅❌.
